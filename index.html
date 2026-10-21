@@ -16,31 +16,57 @@
 <a-scene>
     
 <a-assets>
-   
-   
-    
+   <img id="roof" src="images/wall.jpg" preload="auto">
+   <img id="garage" src="images/garage.jpg" preload="auto">
+    <img id="art1" src="images/window.jpeg" preload="auto">
+   <img id="wall2" src="images/wall2 (2).jpeg" preload="auto">
+
+
     </a-assets>
-<a-entity environment= "preset:egypt; dressingAmount:23;skyColor:#B8336A"></a-entity>
+<a-entity environment= "preset:egypt; dressingAmount:23;skyColor:black
+"></a-entity>
    <!-- Museum floor starts here -->
 <a-cylinder id="floor" position="0 0 0" radius="7.5" src="#floor" height="0.1"></a-cylinder>
-<a-box id="wall1" position="0 1.473 4.907" rotation="0 0 0" scale="10 3 0.2" src="#wall"></a-box>
-<a-box id="wall2" position="0 1.473 -4.907" rotation="0 0 0" scale="10 3 0.2" src="#wall"></a-box>
-<a-box id="wall3" position="5.049 1.454 -0.008" rotation="0 -90 0" scale="10 3 0.2" src="#wall"></a-box>
-<a-box id="wall4" position="-5.049 1.454 -0.008" rotation="0 -90 0" scale="10 3 0.2" src="#wall"></a-box>
-<a-box id="wall5" position="-5.049 1.454 -0.008" rotation="0 -90 0" scale="10 3 0.2" src="#wall"></a-box>
-<a-box id="wall6" position="-0.049 3.265 0.0014" rotation="-89.940 -90.000 0.000" scale="11.060 12.030 0.690" src="#wall"></a-box>
-<a-box id="wall7" position="-5.013 5.302 -0.008" rotation="0.000 -90.290 -11.740" scale="10.000 5.470 0.200" src="#wall"></a-box>
-<a-box id="wall8" position="4.973 5.302 -0.008" rotation="0.000 -90.290 -11.740" scale="10.000 5.470 0.200" src="#wall"></a-box>
-<a-box id="wall9" position="-0.049 8.096 0.479" rotation="100.330 -359.800 -89.990" scale="11.270 11.640 0.570" src="#wall"></a-box>
+<a-box id="wall1" position="0 1.473 4.907" rotation="0 0 0" scale="10 3 0.2" src="#wall2"></a-box>
+<a-box id="wall2" position="0 1.473 -4.907" rotation="0 0 0" scale="10 3 0.2" src="#wall2"></a-box>
+<a-box id="wall3" position="5.049 1.454 -0.008" rotation="0 -90 0" scale="10 3 0.2" src="#wall2"></a-box>
+<a-box id="wall4" position="-5.049 1.454 -0.008" rotation="0 -90 0" scale="7.350 3 0.2" src="#garage"></a-box>
+<a-box id="wall5" position="-5.049 1.454 4.338" rotation="0 -90 0" scale="1.350 3 0.2" src="#wall2"></a-box>
+<a-box id="wall56" position="-5.049 1.454 -4.334" rotation="0 -90 0" scale="1.350 3 0.2" src="#wall2"></a-box>
+<a-box id="wall6" position="-0.049 3.265 0.0014" rotation="-89.940 -90.000 0.000" scale="11.060 12.030 0.690" src="#roof"></a-box>
+<a-box id="wall7" position="-5.013 5.302 0.031" rotation="0.000 -90.290 -11.740" scale="9.140 5.470 0.200" src="#wall"></a-box>
+<a-box id="wall8" position="5.015 5.302 0.031" rotation="0.000 -90.290 -11.740" scale="9.140 5.470 0.200" src="#wall"></a-box>
+<a-box id="wall9" position="-0.049 8.270 0.089" rotation="100.330 -359.800 -89.990" scale="12.800 11.640 0.570" src="#roof"></a-box>
+<a-box id="wall10" position="-5.010 6.288 -4.577" rotation="0.000 -90.000 0.000" scale="1.320 5.900 0.200" src="#wall"></a-box>
+<a-box id="wall11" position="5.046 6.288 -4.577" rotation="0.000 -90.000 0.000" scale="1.320 5.900 0.200" src="#wall"></a-box>
+<a-box id="wall12" position="-5.032 5.290 4.277" rotation="0.000 -90.000 0.000" scale="1.450 3.720 0.200" src="#wall"></a-box>
+<a-box id="wall13" position="4.997 5.290 4.277" rotation="0.000 -90.000 0.000" scale="1.450 3.720 0.200" src="#wall"></a-box>
+<a-box id="wall14" position="-0.016 5.273 4.993" rotation="0 0 0" scale="10.220 3.710 0.200" src="#wall"></a-box>
+<a-box id="wall15" position="-0.016 6.313 -5.132" rotation="0 0 0" scale="10.220 5.460 0.200" src="#wall"></a-box>
+<a-box id="wall16" position="-3.937 2.537 -8.193" rotation="-89.950 -90.000 -89.900" scale="0.470 4.480 -5.600" src="#garage"></a-box>
+<a-box id="wall167" position="-3.918 2.537 -6.038" rotation="-89.950 -90.000 -89.900" scale="0.470 2.610 -6.740" src="#wall2"></a-box>
+<a-box id="wall1678" position="-3.918 2.537 -9.875" rotation="-89.950 -90.000 -89.900" scale="0.470 2.610 -6.740" src="#wall2"></a-box>
+<a-box id="wall17" position="3.833 2.537 -8.193" rotation="-89.950 -90.000 -89.900" scale="0.470 6.230 -6.260" src="#wall2"></a-box>
+<a-box id="wall18" position="-0.049 2.537 -11.103" rotation="-89.950 -90.000 -179.940" scale="0.470 8.210 -6.300" src="#wall2"></a-box>
+<a-box id="wall19" position="-0.049 6.489 -8.298" rotation="75.150 -359.600 -179.840" scale="8.550 8.220 0.570" src="#roof"></a-box>
+<a-box id="wall20" position="-4.015 5.840 -7.711" rotation="75.150 -359.600 -179.840" scale="0.280 5.450 1.570" src="#wall2"></a-box>
+<a-box id="wall21" position="-3.899 5.840 -7.711" rotation="75.150 -359.600 -179.840" scale="0.280 5.450 1.570" src="#wall2"></a-box>
+
+
+
+
+
 
 
 <!--Roof-->
 
 
 <!--ART-->
+<a-plane id="art1" src="#art1" scale="4.590 2.000 0.050" rotation="0 -89.830 -180.070" position="-5.170 5.676 1.559"></a-plane>
 
-
-
+<!-- 3D Object from Tinkercad -->
+<a-obj-model id="3dModel1" src="images/tinker.obj" mtl="images/obj.mtl" position="0 0 2.616" rotation="-90 -179.870 0" scale="0.010 0.010  0.010"></a-obj-model>
+<a-obj-model id="3dModel2" src="images/tinker2.obj" mtl="images/obj2.mtl" position="0.024 0.017 5.405" rotation="-90 -451.840 0" scale="0.050 0.040 0.050"></a-obj-model>
 
 
 
